@@ -1,5 +1,4 @@
 import Header from '@/components/Header'
-import Footer from '@components/Footer'
 import './globals.css'
 
 export const metadata = {
@@ -18,7 +17,6 @@ export default function RootLayout({
         <div className="flex flex-col max-w-md w-full bg-white">
           <Header />
           <section className="flex-1">{children}</section>
-          <Footer />
         </div>
       </body>
     </html>
